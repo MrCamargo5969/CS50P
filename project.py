@@ -5,7 +5,7 @@ from groq import Groq
 
 time = datetime.datetime.now().strftime("%H:%M:%S")
 
-client = Groq(api_key="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")
+client = Groq(api_key="Groq API here")
 conversation_history = []
 
 def user_exit():
